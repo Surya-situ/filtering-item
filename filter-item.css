@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+main {
+    height: 100vh;
+    padding: 30px 100px 30px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    font-family: inherit;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    background-color: rgb(86, 193, 187);
+    color: #ffffff;
+    
+}
+.content  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.colors-div {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+
+.colors {
+    background-color: red;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+}
